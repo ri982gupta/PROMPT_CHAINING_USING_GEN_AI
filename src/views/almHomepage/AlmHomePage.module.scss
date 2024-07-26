@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 80vh;
+    width: 100%;
+    
+    
+  }
+  
+  .addSection {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .box_add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 130px;
+    background-color: #1a4fc9; /* Darker shade of blue */
+    border-radius: 10px;
+    color: #f1f1f1;
+    margin-right: 15px;
+    margin-top: 10vh;
+  }
+  
+  .box_add:hover {
+    background-color: #4b8ff5; /* Lighter shade on hover */
+    transition: 0.3s;
+    cursor: pointer;
+    box-shadow: -1px 4px 21px -27px #2a61c5,
+                0px 1px 26px 1px #1c3a68;
+    color: #08172d; /* Deeper text color on hover */
+  }
+  
+  .box_save {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 130px;
+    height: 100px;
+    background-color: #90e37e; /* Lighter color */
+    border-radius: 10px;
+    color: #1f1f1f; /* Dark text color */
+    margin-right: 15px;
+    margin-top: 5vh;
+    font-size: 25px;
+  }
+  
+  .box_save:hover {
+    background-color: #70cc5c; /* Lighter shade on hover */
+    transition: 0.1s;
+    box-shadow: -1px 4px 21px -27px #50b63a,
+                0px 1px 26px 1px #3a802b;
+    color: #1f1f1f; /* Dark text color */
+    font-size: 28px;
+    cursor: pointer;
+  }
+  
+  .top {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #edd5ba; /* Light background color */
+    border-radius: 10px;
+    margin: 0px 0px 10px 0px;
+    overflow-y: auto; /* Enable vertical scrolling */
+    max-height: calc(58vh - 140px);
+  }
+  
+  .top::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+  }
+  
+  .top::-webkit-scrollbar-track {
+    background: #eff2f5; /* Track color */
+  }
+  
+  .top::-webkit-scrollbar-thumb {
+    background: #bbc4cc; /* Thumb color */
+    border-radius: 5px; /* Round corners of the thumb */
+  }
+  
+  /* Target Firefox */
+  .top {
+    scrollbar-width: thin; /* Width of the scrollbar */
+    scrollbar-color: #8db6d9 #eff2f5; /* Thumb color and track color */
+  }
+  
+  .bottom {
+  flex: 1;
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #f9f9f9; /* Lighter background color */
+  border-radius: 10px;
+  overflow-y: auto; /* Enable vertical scrolling */
+  max-height: calc(80vh - 130px);
+}
+  
+  .bottom::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+  }
+  
+  .bottom::-webkit-scrollbar-track {
+    background: #f9f9f9; /* Track color */
+  }
+  
+  .bottom::-webkit-scrollbar-thumb {
+    background: #d2d2d2; /* Thumb color */
+    border-radius: 5px; /* Round corners of the thumb */
+  }
+  
+  /* Target Firefox */
+  .bottom {
+    scrollbar-width: thin; /* Width of the scrollbar */
+    scrollbar-color: #d2d2d2 #f9f9f9; /* Thumb color and track color */
+  }
+  
+  .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5vh;
+    width: 200px;
+    height: 130px;
+    background-color: #e08b3b;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  
+  .box:hover {
+    background-color: rgb(202, 109, 3);
+    transition: 0.3s;
+    cursor: pointer;
+    box-shadow: -1px 4px 21px -27px #e2934a,
+                0px 1px 26px 1px rgb(226, 147, 74);
+    color: rgb(239, 239, 239);
+  }
+  
+  .box_project {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 130px;
+    background-color: rgb(3, 175, 15);
+    margin: 10px;
+    border-radius: 10px;
+  }
+  
+  .box_project:hover {
+    background-color: rgb(255, 153, 52);
+    transition: 0.3s;
+    cursor: pointer;
+    box-shadow: -1px 4px 21px -27px #2fcd0f,
+                0px 1px 26px 1px rgb(15, 93, 27);
+    color: black;
+  }
+  
+  .box_project:hover {
+    background-color: rgb(255, 153, 52);
+    transition: 0.3s;
+    cursor: pointer;
+    box-shadow: -1px 4px 21px -27px #2fcd0f,
+                0px 1px 26px 1px rgb(15, 93, 27);
+    color: black;
+  }
+  
+  .checkbox {
+    width: 20px; /* Adjust checkbox width */
+    height: 20px; /* Adjust checkbox height */
+    margin: 7px;
+  }
+  
+  .menu {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  
+  .menu:hover {
+    color: black;
+  }
+  

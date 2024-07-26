@@ -1,0 +1,180 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    height: 80vh;
+    width:100% ;
+  }
+  .addSection{
+    display: flex;
+    justify-content: center;
+  }
+  .box_add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 130px;
+    background-color: #b93be0;
+    border-radius: 10px;
+    color: #f1f1f1;
+    margin-right: 15px;
+    margin-top: 1.2vh;
+    
+  }
+  .box_add:hover{
+    background-color: rgb(225, 169, 244);
+    transition: 0.3s;
+    cursor:pointer;
+    box-shadow: -1px 4px 21px -27px #d54ae2,
+0px 1px 26px 1px rgb(188, 42, 201);
+color: rgb(31, 6, 6);
+  }
+  .box_save{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 130px;
+    height: 100px;
+    background-color: #6ddc74;
+    border-radius: 10px;
+    color: #fffbfb;
+    margin-right: 15px;
+    margin-top: 5vh;
+    font-size: 25px;
+  }
+  .box_save:hover{
+    background-color: #1da802;
+    transition: 0.1s;
+    box-shadow: -1px 4px 21px -27px #4ae293,
+0px 1px 26px 1px rgb(42, 201, 129);
+color: rgb(255, 255, 255);
+font-size: 28px;
+cursor: pointer;
+  }
+  
+  .top {
+    color: white;
+    flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  align-items: flex-start;
+  background-color: lightblue;
+  border-radius: 10px;
+  margin: 0px 0px 10px 0px;
+  overflow-y: auto; /* Enable vertical scrolling */
+  max-height: calc(58vh - 140px); 
+  }
+  
+  .top::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+  }
+  
+  .top::-webkit-scrollbar-track {
+    background: lightblue /* Track color */
+  }
+  
+  .top::-webkit-scrollbar-thumb {
+    background: #355ef5; /* Thumb color */
+    border-radius: 5px; /* Round corners of the thumb */
+  }
+
+  
+  /* Target Firefox */
+  .top {
+    scrollbar-width: thin; /* Width of the scrollbar */
+    scrollbar-color: #888 #f1f1f1; /* Thumb color and track color */
+  }
+  
+  .bottom {
+    flex: 1;
+    color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  align-items: flex-start;
+    background-color: lightgreen;
+    border-radius: 10px;
+  overflow-y: auto; /* Enable vertical scrolling */
+  max-height: calc(80vh - 130px); 
+  }
+  
+  .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5vh;
+    width: 200px;
+    height: 130px;
+    background-color: #3b5fe0;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  .box:hover{
+    background-color: rgb(255, 187, 0);
+    transition: 0.3s;
+    cursor:pointer;
+    box-shadow: -1px 4px 21px -27px #4a90e2,
+0px 1px 26px 1px rgba(74,144,226,1);
+color: brown;
+  }
+  .box_project{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 130px;
+    background-color: rgb(3, 175, 15);
+    margin: 10px;
+    border-radius: 10px;
+  }
+  .box_project:hover{
+    background-color: rgb(255, 153, 52);
+    transition: 0.3s;
+    cursor:pointer;
+    box-shadow: -1px 4px 21px -27px #2fcd0f,
+0px 1px 26px 1px rgb(15, 93, 27);
+color: black;
+  }
+  .bottom::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+  }
+  
+  .bottom::-webkit-scrollbar-track {
+    background: lightgreen /* Track color */
+  }
+  
+  .bottom::-webkit-scrollbar-thumb {
+    background: rgb(3, 175, 15); /* Thumb color */
+    border-radius: 5px; /* Round corners of the thumb */
+  }
+
+  
+  /* Target Firefox */
+  .bottom {
+    scrollbar-width: thin; /* Width of the scrollbar */
+    scrollbar-color: #888 #f1f1f1; /* Thumb color and track color */
+  }
+  
+
+  
+  .checkbox {
+    width: 20px; /* Adjust checkbox width */
+    height: 20px; /* Adjust checkbox height */
+    margin: 7px;
+  }
+  .menu{
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .menu:hover{
+    color: black;
+  }

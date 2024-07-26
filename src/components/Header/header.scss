@@ -1,0 +1,141 @@
+@import "../../scss/variables";
+
+// .headerContainer {
+//   display: flex;
+//   gap: 15px;
+//   background-color: lighten($white, 80%);
+//   min-height: 60px;
+//   padding: 16px;
+//   align-items: center;
+//   justify-content: flex-end;
+//   color: rgba($black, 0.5);
+
+//   select {
+//     // height: 50px;
+//     // padding: 10px 10px 10px 10px;
+//     margin-top: -12px;
+//     font-size: 15px;
+//     font-family: 'FontAwesome', 'Second Font name';
+//     align-items: start;
+//     text-align: start;
+//   }
+
+//   .logout{
+//     margin-top: -12px;
+//   }
+
+// }
+
+// // header.scss
+// // header.scss
+
+// .headerContainer {
+//   background-color: #f0f0f0;
+//   padding: 10px;
+// }
+
+// .navigationList {
+//   list-style-type: none;
+//   display: flex;
+//   justify-content: space-around;
+//   padding: 0;
+//   margin: 0;
+
+//   li {
+//     flex: 1;
+//     text-align: center;
+//   }
+
+//   a {
+//     text-decoration: none;
+//     color: #333;
+//     padding: 10px;
+//     display: block;
+
+//     &:hover {
+//       background-color: #ddd;
+//     }
+
+//     &.active {
+//       background-color: #4caf50;
+//       color: #fff;
+//     }
+//   }
+// }
+
+// .headerContainer {
+//   display: flex;
+//   justify-content: space-around;  // Equal distance between links
+//   align-items: center;
+//   height: 100%;  // Cover the entire height of the container
+//   background-color: #67a4a3;  // Add your desired background color
+// }
+
+// .headerLink {
+//   text-decoration: none;
+//   color: rgb(255, 255, 255);  // Text color for links
+//   padding: 10px;  // Add padding for better visibility
+//   transition: background-color 0.3s;  // Smooth transition for background color change
+
+//   &:hover {
+//     background-color: #f9f9f9;  // Change background color on hover
+//   }
+
+//   &.active {
+//     background-color: #777;  // Highlight the active link with a different color
+//   }
+// }
+
+// header.scss
+
+// .headerContainer {
+//   display: flex;
+//   justify-content: flex-end; // Align items to the right side
+//   align-items: center; // Center vertically
+//   height: 120px; // Set a suitable height for your header
+//   background-color: #67a4a3; // Add background color if needed
+//   padding: 0 20px; // Add padding as needed
+// }
+
+// h2 {
+//   margin: 0; // Remove default margin
+//   color: white;
+// }
+
+
+
+
+.headerContainer {
+
+  padding: 9px;
+  // background-color:  #746091;
+  background-color: $primary;
+  width: 100%;
+
+  h1 {
+    
+    color: #fff;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 600px;
+
+    img{
+      margin-left: 450px;
+    }
+  }
+
+  .icon{
+    color:white;
+  }
+  .popup-box{
+    display:flex;
+    flex-direction: column;
+    color: white;
+  }
+
+}

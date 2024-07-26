@@ -1,0 +1,247 @@
+{
+  "1": {
+    "id": 1,
+    "target": 2,
+    "label": "Student",
+    "x": 300,
+    "y": 150,
+    "background": "linear-gradient(to bottom, green 30%, white 0%)",
+    "rules": [],
+    "tabledata": {
+      "1": {
+        "Emp_ID1": 5200,
+        "Employee_Name1": "Employee1",
+        "Manager_Name1": "Male",
+        "Job_Name1": "Intern",
+        "Hire_Date1": "02/1/2013",
+        "Salary1": 100000,
+        "Dept_ID1": 1282,
+        "Location1": "Hyderabad",
+        "Secondary Skill1": "ODM"
+      }
+    }
+  },
+  "30": {
+    "name": "skp",
+    "username": "skp",
+    "password": "1111",
+    "profession": "code fiddler",
+    "id": 3,
+    "appIds": [
+      1,
+      2
+    ]
+  },
+  "40": {
+    "name": "Bhanu Prakash Juluri",
+    "username": "bp",
+    "password": "1111",
+    "profession": "king",
+    "id": 4,
+    "appIds": [
+      7,
+      8
+    ]
+  },
+  "50": {
+    "name": "Karthik Pandla",
+    "username": "kp",
+    "password": "1111",
+    "profession": "king",
+    "id": 5,
+    "appIds": [
+      1,
+      2
+    ]
+  },
+  "60": {
+    "name": "Mahesh Kancharla",
+    "username": "mk",
+    "password": "1111",
+    "profession": "code fiddler",
+    "id": 6,
+    "appIds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "70": {
+    "name": "Tinesh Krishna Singarapu",
+    "username": "tks",
+    "password": "1111",
+    "profession": "brexit destroyer",
+    "id": 7,
+    "appIds": [
+      5,
+      6
+    ]
+  },
+  "80": {
+    "name": "Nikhil Sripada",
+    "username": "ns",
+    "password": "1111",
+    "profession": "code fiddler",
+    "id": 8,
+    "appIds": [
+      1,
+      2
+    ]
+  },
+  "90": {
+    "name": "Sasidhar Bongu",
+    "username": "sb",
+    "password": "1111",
+    "profession": "king",
+    "id": 9,
+    "appIds": [
+      7,
+      8
+    ]
+  },
+  "100": {
+    "name": "Nazeer Ali",
+    "username": "na",
+    "password": "1111",
+    "profession": "king",
+    "id": 10,
+    "appIds": [
+      1,
+      2
+    ]
+  },
+  "110": {
+    "name": "Shankar Mandal",
+    "username": "sm",
+    "password": "1111",
+    "profession": "code fiddler",
+    "id": 11,
+    "appIds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "120": {
+    "name": "Rahul",
+    "username": "r",
+    "password": "1111",
+    "profession": "brexit destroyer",
+    "id": 12,
+    "appIds": [
+      5,
+      6
+    ]
+  },
+  "130": {
+    "name": "Yogita Deshmukh",
+    "username": "yd",
+    "password": "1111",
+    "profession": "code fiddler",
+    "id": 13,
+    "appIds": [
+      1,
+      2
+    ]
+  },
+  "140": {
+    "name": "Abhilashini Salimath",
+    "username": "as",
+    "password": "1111",
+    "profession": "king",
+    "id": 14,
+    "appIds": [
+      7,
+      8
+    ]
+  },
+  "150": {
+    "name": "Aishwarya Thoudoju",
+    "username": "at",
+    "password": "1111",
+    "profession": "king",
+    "id": 15,
+    "appIds": [
+      1,
+      2
+    ]
+  },
+  "160": {
+    "name": "Sreshta Nella",
+    "username": "sn",
+    "password": "1111",
+    "profession": "code fiddler",
+    "id": 16,
+    "appIds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "170": {
+    "name": "Devi Attada",
+    "username": "da",
+    "password": "1111",
+    "profession": "brexit destroyer",
+    "id": 17,
+    "appIds": [
+      5,
+      6
+    ]
+  },
+  "1680590209021": {
+    "name": "ShivaKrishna Telu",
+    "password": "Password2@",
+    "profession": "Sample",
+    "id": 5299,
+    "appIds": []
+  },
+  ":1": {
+    "id": 1,
+    "target": 2,
+    "label": "Student",
+    "x": 300,
+    "y": 150,
+    "background": "linear-gradient(to bottom, green 30%, white 0%)",
+    "rules": [],
+    "tabledata": {
+      "1": {
+        "Emp_ID1": 5200,
+        "Employee_Name1": "Employee1",
+        "Manager_Name1": "Male",
+        "Job_Name1": "Intern",
+        "Hire_Date1": "02/1/2013",
+        "Salary1": 100000,
+        "Dept_ID1": 1282,
+        "Location1": "Hyderabad",
+        "Secondary Skill1": "ODM"
+      }
+    }
+  },
+  "1683293071051": {
+    "name": "SaiKiran.Pasapula@prolifics.com",
+    "password": "SKSpro0987!",
+    "profession": "Sample",
+    "id": 11223,
+    "appIds": []
+  }
+}

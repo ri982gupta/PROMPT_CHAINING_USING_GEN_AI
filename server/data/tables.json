@@ -1,0 +1,191 @@
+{
+  "1": {
+    "id": 1,
+    "target": 2,
+    "label": "Student",
+    "x": 300,
+    "y": 50,
+    "background": "linear-gradient(to bottom, green 30%, white 0%)",
+    "rules": [
+      "rule3",
+      null,
+      null,
+      null,
+      null,
+      null,
+      "rule3"
+    ],
+    "tabledata": {
+      "1": {
+        "Emp_ID1": 5200,
+        "Employee_Name1": "Employee1",
+        "Manager_Name1": "Male",
+        "Job_Name1": "Intern",
+        "Hire_Date1": "02/1/2013",
+        "Salary1": 100000,
+        "Dept_ID1": 1282,
+        "Location1": "Hyderabad",
+        "Secondary Skill1": "ODM"
+      }
+    }
+  },
+  "2": {
+    "id": 2,
+    "target": 3,
+    "label": "ClassRoom",
+    "x": 650,
+    "y": 50,
+    "background": "linear-gradient(to bottom, green 30%, white 0%)",
+    "rules": [
+      "rule3",
+      "rule2",
+      "rule3"
+    ],
+    "tabledata": {
+      "2": {
+        "Emp_ID2": 5201,
+        "Employee_Name2": "SaiKiran",
+        "Manager_Name2": "Male",
+        "Job_Name2": "Intern",
+        "Hire_Date2": "02/1/2013",
+        "Salary2": 100000,
+        "Dept_ID2": 1282,
+        "Location2": "Hyderabad"
+      }
+    }
+  },
+  "3": {
+    "id": 3,
+    "target": 4,
+    "label": "Course",
+    "x": 650,
+    "y": 250,
+    "background": "linear-gradient(to bottom, green 30%, white 0%)",
+    "rules": [
+      "rule3",
+      "rule4"
+    ],
+    "tabledata": {
+      "3": {
+        "Emp_ID3": 5202,
+        "Employee_Name3": "SaiKiran",
+        "Manager_Name3": "Male",
+        "Job_Name3": "Intern",
+        "Hire_Date3": "02/1/2013",
+        "Salary3": 100000,
+        "Dept_ID3": 1282,
+        "Location3": "Hyderabad"
+      }
+    }
+  },
+  "4": {
+    "id": 4,
+    "target": 5,
+    "label": "Lecture",
+    "x": 900,
+    "y": 50,
+    "background": "linear-gradient(to bottom, green 30%, white 0%)",
+    "rules": [
+      "rule3",
+      null,
+      "rule2"
+    ],
+    "tabledata": {
+      "4": {
+        "Emp_ID4": 5203,
+        "Employee_Name4": "Employee1",
+        "Manager_Name4": "Male",
+        "Job_Name4": "Intern",
+        "Hire_Date4": "02/1/2013",
+        "Salary4": 100000,
+        "Dept_ID4": 1282,
+        "Location4": "Hyderabad",
+        "Manager Gender4": "Male",
+        "Primary Skill4": "Java",
+        "Secondary Skill4": "ODM"
+      }
+    }
+  },
+  "5": {
+    "id": 5,
+    "target": 6,
+    "label": "Professor",
+    "x": 900,
+    "y": 150,
+    "background": "linear-gradient(to bottom, green 30%, white 0%)",
+    "rules": [
+      "rule2",
+      null,
+      "rule3"
+    ],
+    "tabledata": {
+      "5": {
+        "Emp_ID5": 5204,
+        "Employee_Name5": "Employee1",
+        "Manager_Name5": "Male",
+        "Job_Name5": "Intern",
+        "Hire_Date5": "02/1/2013",
+        "Salary5": 100000,
+        "Dept_ID5": 1282,
+        "Location5": "Hyderabad",
+        "Manager Gender5": "Male",
+        "Primary Skill5": "Java",
+        "Secondary Skill5": "ODM"
+      }
+    }
+  },
+  "6": {
+    "id": 6,
+    "target": 0,
+    "label": "Department",
+    "x": 900,
+    "y": 250,
+    "background": "linear-gradient(to bottom, green 30%, white 0%)",
+    "rules": [
+      "rule4",
+      "rule3",
+      "rule2"
+    ],
+    "tabledata": {
+      "6": {
+        "Emp_ID6": 5205,
+        "Employee_Name6": "Employee1",
+        "Manager_Name6": "Male",
+        "Job_Name6": "Intern",
+        "Hire_Date6": "02/1/2013",
+        "Salary6": 100000,
+        "Dept_ID6": 1282,
+        "Location6": "Hyderabad",
+        "Manager Gender6": "Male",
+        "Primary Skill6": "Java",
+        "Secondary Skill6": "ODM"
+      }
+    }
+  },
+  "7": {
+    "id": 7,
+    "target": 0,
+    "label": "Assignement",
+    "x": 300,
+    "y": 150,
+    "background": "linear-gradient(to bottom, green 30%, white 0%)",
+    "rules": [
+      "rule1",
+      "rule3",
+      "rule3"
+    ],
+    "tabledata": {
+      "7": {
+        "Emp_ID7": 5206,
+        "Employee_Name7": "Employee1",
+        "Manager_Name7": "Male",
+        "Job_Name7": "Intern",
+        "Hire_Date7": "02/1/2013",
+        "Salary7": 100000,
+        "Dept_ID7": 1282,
+        "Location7": "Hyderabad",
+        "Manager Gender7": "Male"
+      }
+    }
+  }
+}

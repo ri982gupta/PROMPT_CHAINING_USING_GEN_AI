@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import '/node_modules/@blueprintjs/core/';
+@import "./scss/variables";
+
+
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: $black;
+  background: $grey;
+  font-weight: 400;
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+
+
+.input{
+  display: flex;
+  align-items:center;
+  margin: auto;
+  justify-content: center;
+  width: 480px;
+  height: 50px;
+  background:$white;
+  border-radius: 6px;
+}
+
+
+.input input{
+  height: 50px;
+  width: 400px;
+  background:transparent;
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
+.forgotpassword{
+  color:whitesmoke;
+  font-size: 18px;
+  padding:10px 0px 0px 0px;
+  border-radius: 10px;
+}
+.forgotpassword span{
+  color: rgb(230, 230, 206);
+  cursor:pointer;
+  font-weight: 500;
+  margin-left: 20px;
+  padding: 0px 5px;
+}
+.forgotpassword span:hover{
+  background-color:  $accent;
+  color: black;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+.submit-container{
+  display: flex;
+  gap:30px;
+  margin: 10px auto;
+}
+.submit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  color: whitesmoke;
+  background: $primary;
+  border-radius: 50px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.submit:hover{
+  padding: 0px 10px;
+  background-color: $accent;
+  background: $accent;
+  transition: .5s;
+}
+.gray{
+  background: $primary;
+  color:whitesmoke;
+}
+
+.bp5-dialog-body-scroll-container{
+  overflow: hidden;
+}
